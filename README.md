@@ -21,3 +21,11 @@ A decentralized ETH bank with the tools necessary to maintain a secure environme
 6. If you find no errors, go to the "Deploy and Execute Transactions" tab and select your "Environment" and "Account".
 7. Go to the deploy section and in the "MaxWithdrawPerHour" box enter the maximum amount of ETH (in WEI) you can withdraw per hour. In the "admin" box, enter the address of the user who will be in charge of managing the bank.
 8. Finally, click on "Transact" so that the bank starts operating
+## Code details 💻
+*  function depositETH() -> 
+*  function withdrawETH()
+*  function modifyMaxWithdrawPerHour()
+*  function pausetransactions()
+*  function unpausetransactions()
+*  function addToBlackList()
+*  function removeFromBlacklist()
