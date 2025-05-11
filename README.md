@@ -4,14 +4,14 @@ A decentralized ETH bank with the tools necessary to maintain a secure environme
 ## Features 📃
 * Deposit -> Deposit the amount of ETH you want, without limits.
 * Withdraw -> Withdraw ETH easily.
-* Admin - Have the power to perform functions only permitted for the user who deploys this smart contract.
-* Limit - To prevent theft or questionable behavior, a certain limit of ETH is allowed to be withdrawn per hour.
-* Black list - Add users to a blacklist and prevent them from depositing or withdrawing within this bank.
-* Pause - In case of emergency, you can pause all transactions within the bank to prevent unwanted losses to your users' assets.
-* Adjustable - Set the amount of ETH you want as the withdrawal limit per hour.
+* Admin -> Have the power to perform functions only permitted for the user who deploys this smart contract.
+* Limit -> To prevent theft or questionable behavior, a certain limit of ETH is allowed to be withdrawn per hour.
+* Black list -> Add users to a blacklist and prevent them from depositing or withdrawing within this bank.
+* Pause -> In case of emergency, you can pause all transactions within the bank to prevent unwanted losses to your users' assets.
+* Adjustable -> Set the amount of ETH you want as the withdrawal limit per hour.
 ## Technical details ⚙️
-* Integrated Development Environment - Remix (Ethereum IDE).
-* Solidity Compiler Version - 0.8.24.
+* Integrated Development Environment -> Remix (Ethereum IDE).
+* Solidity Compiler Version -> 0.8.24.
 ## Deploying the contract 🛠️
 1. Open Remix IDE. Available at https://remix.ethereum.org.
 2. Go to the "File explorer" tab and create a new file with the .sol extension in the "Contracts" folder.
@@ -23,9 +23,9 @@ A decentralized ETH bank with the tools necessary to maintain a secure environme
 8. Finally, click on "Transact" so that the bank starts operating
 ## Code details 💻
 *  function depositETH() -> 
-*  function withdrawETH()
-*  function modifyMaxWithdrawPerHour()
-*  function pausetransactions()
-*  function unpausetransactions()
-*  function addToBlackList()
-*  function removeFromBlacklist()
+*  function withdrawETH() ->
+*  function modifyMaxWithdrawPerHour() ->
+*  function pausetransactions() ->
+*  function unpausetransactions() ->
+*  function addToBlackList() -> 
+*  function removeFromBlacklist() ->
