@@ -22,12 +22,12 @@ A decentralized ETH bank with the tools necessary to maintain a secure environme
 7. Go to the deploy section and in the "MaxWithdrawPerHour" box enter the maximum amount of ETH (in WEI) you can withdraw per hour. In the "admin" box, enter the address of the user who will be in charge of managing the bank.
 8. Finally, click on "Transact" so that the bank starts operating
 ## Contract interface details 💻
-* addToBlackList ->  Add a user to the blacklist to prevent them from making deposits and withdrawals within the bank.
+* addToBlackList ->  Add a user to the blacklist to prevent them from making deposits and withdrawals within the bank. Only admin.
 * depositETH -> Deposit ETH from your address to the bank.
-* modifyMaxWithdrawPerHour ->  Sets the limit of ETH (in WEI) that can be withdrawn per hour.
-* pauseTransactions -> Pause all bank transactions. 
-* removeFromBlackList -> Remove a user from the blacklist.
-* unpauseTransactions -> Resume all bank transactions.
+* modifyMaxWithdrawPerHour ->  Sets the limit of ETH (in WEI) that can be withdrawn per hour. Only admin.
+* pauseTransactions -> Pause all bank transactions. Only admin.
+* removeFromBlackList -> Remove a user from the blacklist. Only admin.
+* unpauseTransactions -> Resume all bank transactions. Only admin.
 * withdrawETH -> Withdraw ETH from the bank to your address.
 * admin -> Check the address of the contract administrator.
 * blocked -> Check if a user is blacklisted.
