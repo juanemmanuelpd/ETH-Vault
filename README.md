@@ -21,11 +21,18 @@ A decentralized ETH bank with the tools necessary to maintain a secure environme
 6. If you find no errors, go to the "Deploy and Execute Transactions" tab and select your "Environment" and "Account".
 7. Go to the deploy section and in the "MaxWithdrawPerHour" box enter the maximum amount of ETH (in WEI) you can withdraw per hour. In the "admin" box, enter the address of the user who will be in charge of managing the bank.
 8. Finally, click on "Transact" so that the bank starts operating
-## Code details 💻
-*  function depositETH() -> Deposit ETH from your address to the bank.
-*  function withdrawETH() -> Withdraw ETH from the bank to your address.
-*  function modifyMaxWithdrawPerHour() -> Sets the limit of ETH (in WEI) that can be withdrawn per hour.
-*  function pausetransactions() ->Pause all bank transactions.
-*  function unpausetransactions() -> Resume all bank transactions.
-*  function addToBlackList() -> Add a user to the blacklist to prevent them from making deposits and withdrawals within the bank.
-*  function removeFromBlacklist() -> Remove a user from the blacklist.
+## Contract interface details 💻
+* addToBlackList ->  Add a user to the blacklist to prevent them from making deposits and withdrawals within the bank.
+* depositETH -> Deposit ETH from your address to the bank.
+* modifyMaxWithdrawPerHour ->  Sets the limit of ETH (in WEI) that can be withdrawn per hour.
+* pauseTransactions -> Pause all bank transactions. 
+* removeFromBlackList -> Remove a user from the blacklist.
+* unpauseTransactions -> Resume all bank transactions.
+* withdrawETH -> Withdraw ETH from the bank to your address.
+* admin -> Check the address of the contract administrator.
+* blocked -> Check if a user is blacklisted.
+* maxWithdrawPerHour -> Check the maximum ETH (in wei) available to withdraw per hour.
+* paused -> Check if the contract is paused.
+* userBalance -> Check the amount of ETH (in WEI) you have saved in the bank. 
+
+CODE IS LAW!
